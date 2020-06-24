@@ -1,5 +1,5 @@
 # Go-Chase-It-
-Project 2 of Udacity Robotics Software Engineer Nanodegree Program
+
  
 ## Overview  
 In this project you'll create two ROS packages inside your `catkin_ws/src`: the `drive_bot` and the `ball_chaser` which will be used in Gazebo for all your upcoming projects in the [Udacity Robotics Software Engineer Nanodegree Program](https://www.udacity.com/course/robotics-software-engineer--nd209). Here are the steps to design the robot, house it inside your world, and program it to chase white-colored balls:  
@@ -67,20 +67,8 @@ Directory Structure
 │   ├── model.config
 │   ├── model.sdf
 ├── pic                                     
-│   ├── record video.mp4                       # video
-│   ├── video_gif.gif                          # video
+
 ```
-- [record video.mp4](/pic/record video.mp4): A recording video.  
-- [drive_bot.cpp](/catkin_ws/src/ball_chaser/src/drive_bot.cpp): ROS service C++ script, command the robot with specify speeds.  
-- [process_images.cpp](/catkin_ws/src/ball_chaser/src/process_images.cpp): ROS service C++ script, process the camera image and return requested speeds.  
-- [world.launch](/catkin_ws/src/my_gokart/launch/world.launch): Launch my_gokart mode in Gazebo world with building and plugins.  
-- [robot_description.launch](/catkin_ws/src/my_robot/launch/robot_description.launch): Create robot model in Gazebo world. 
-- [empty.world](/catkin_ws/src/my_robot/worlds/empty.world): Gazebo world file that includes nothing.  
-- [office.world](/catkin_ws/src/my_robot/worlds/office.world): Gazebo world file that includes the models.  
-- [CMakeLists.txt](/catkin_ws/src/my_robot/CMakeLists.txt): File to link the C++ code to libraries.  
-- [hokuyo.dae](/catkin_ws/src/my_robot/meshes/hokuyo.dae): Hokuyo LiDAR sensor mesh model.  
-- [my_robot.gazebo](/catkin_ws/src/my_robot/urdf/my_robot.gazebo): Define my_robot URDF model plugins.  
-- [my_robot.xacro](/catkin_ws/src/my_robot/urdf/my_robot.xacro): Define my_robot URDF model.  
 
 ## Run the project  
 * Clone this repository
